@@ -20,7 +20,14 @@ public class Main {
         char secondOfName = fullName.charAt(fullName.indexOf(' ') + 1);
         char thirdOfName = fullName.charAt(fullName.indexOf(' ', fullName.indexOf(' ') + 1) + 1);
         char firstOfName = fullName.charAt(0);
-        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + firstOfName + "." + secondOfName + "." + thirdOfName + ".");
+        String lol = "";
+        lol +=firstOfName;
+        lol +='.';
+        lol +=secondOfName;
+        lol +='.';
+        lol +=thirdOfName;
+        lol +='.';
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + lol);
     }
 
     public static void task3() {
